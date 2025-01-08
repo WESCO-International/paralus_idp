@@ -1,5 +1,5 @@
 // azuread-to-paralus-mapper.jsonnet
-local claims = std.extVar('claims');
+//local claims = std.extVar('claims');
 {
   // Map user groups in Azure AD to Paralus roles
   "roleMappings": [
